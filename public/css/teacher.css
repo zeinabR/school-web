@@ -1,0 +1,171 @@
+h1{
+    color :#008B8B ;
+    text-align: center;
+    background-color: white;   
+}
+.row{
+    margin-bottom:25px;
+}
+.container{
+    position: relative;
+    z-index: 1;
+}
+.background{
+    background: url(../images/teacher.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+/* start schedule sec*/
+.schedule{
+    position: center;
+    padding: 25px;
+    border: 2;
+    border-spacing: 7px;
+    border-collapse: separate;
+    margin: 20px;
+}
+.quoat{
+    background-color: #FF4500;
+    color: black;
+    min-height: 80px;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px
+}
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    padding: 25px;
+    font-size: 30px;
+    color: white; 
+    width: auto;
+}
+.quote{
+    background-color: #FF5C00;
+    padding-left: 210px;
+}
+.cl{
+    height: auto;
+}
+.course{
+    height: inherit;
+    margin: 20px;
+    height: inherit;
+}
+
+fieldset{
+    border:2px solid black;
+    background-color: #008B8B;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+legend{
+    width: auto;
+    padding: 15px;
+    border-style: double;
+    color: #FFE400;
+    background-color: #747474;
+}
+input{
+    min-width: 25px;
+    max-width: 300px;
+}
+.btnG{
+    position: relative;
+    left:40%;
+}
+.hidden{
+    display:none;
+}
+
+.unhidden{
+    display:block;
+}
+.background1{
+    background-image: url(../images/participation.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+a{
+    color:red;
+}
+/*
+.teacher {
+    background: url(../images/welcome.jpg);
+    background-size: cover;
+    height: 100%;
+    
+
+}
+
+.overlay {
+    background-color: rgba(12, 12, 12, 0.6);
+    padding: 10%;
+    height: 100%;
+    
+}
+
+.overlay p {
+    padding-top: 30px; 
+    font-family: 'Courgette' , cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.overlay a:hover {
+    text-decoration: none;
+}
+
+.TimeTable {
+    background: url(../images/timetable.jpg);
+    background-size: cover;
+    height: 160px;
+    width: 270px;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    border:3px white solid;
+}
+
+.Exercise {
+    background: url(../images/Exercise.jpeg);
+    background-size: cover;
+    height: 160px;
+    width: 270px;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    border:3px white solid;
+}
+
+.Grades {
+    background: url(../images/Exercise.jpeg);
+    background-size: cover;
+    height: 160px;
+    width: 270px;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    border:3px white solid;
+
+}*/

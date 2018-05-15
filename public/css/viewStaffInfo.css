@@ -1,0 +1,55 @@
+.describe{
+	background: url("../images/staffs.jpg");
+	background-size: cover;
+/*	margin-top: 33px;
+*/
+	background-position: fixed;
+
+	background-repeat: no-repeat;
+	min-height: 600px;
+	margin-top: 10px;
+/*	padding-bottom: 1000px;
+*/}
+
+body{
+	background-color: white;
+}
+
+
+.table{
+		    box-shadow: 6px 6px 0px rgb(220, 215, 215);
+
+}
+
+
+.table thead th {
+	    background-color: #039055;
+}
+
+
+.btn-primary{
+	    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+	    background-color: #bc5e39;
+	    border-color: #bc5e39;
+}
+
+.btn-primary:hover{
+	background-color: #a44a31;
+	border-color: #a44a31;
+}
+
+@media screen and (max-width:768px)
+{
+	.tables{
+	background: url("../images/staffs.jpg");
+	background-position:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 15px;
+	min-height: 400px;
+	}
+
+	.describe{
+		display:none;
+	}
+}

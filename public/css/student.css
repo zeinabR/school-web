@@ -1,0 +1,147 @@
+.clear{
+  clear: both;
+}
+
+
+.p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*start cources sec*/
+.row{
+    margin-bottom:25px;
+}
+.subheader{
+    color :firebrick ;
+    text-align: center;
+}
+.card{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /*border-radius: 30px;*/
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius: 30px;
+    border-color:#112D3B;
+}
+.card-btn{
+  /*margin-top: 5px;
+  margin-left: 25%;*/
+  background-color: #112D3B; 
+  color: #DDFFF7;
+}
+.card-btn:hover{
+  color: #FF9900;
+}
+.card-img-top{
+
+ }
+/*start cources sec*/
+
+/* start schedule sec*/
+.schedule{
+    background-image: url(../images/student/bus.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 50px;
+    width: auto;
+}
+
+/* end schedule sec*/
+
+/*start Events sec*/
+.event{
+   /* height: 400px;*/
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.event-photo{
+    border-radius: 50%;
+    border: 5px solid darkblue; 
+    max-width: 100%;/*2hm wahda*/
+    height: auto;
+    display: block;
+}
+
+.event-text{
+    background-color: antiquewhite;
+}
+/*end events sec*/
+
+/*start Calender sec*/
+$background: #A4D7ED;
+$background2: #DEC5E3;
+$day: #DDF8E8;
+$date: #DDF8E8;
+$font: #324376;
+$border: #A6EDE2;
+
+.calender-body{
+  background: #A4D7ED; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $background, $background2); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right, $background, $background2); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right, $background, $background2); /*Fx 3.6-15*/
+  background: linear-gradient(to right, $background, $background2); /*Standard*/
+  
+  color: $font;
+  font-family: 'Comfortaa', cursive;
+}
+.calender{
+  height: 250px;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  justify-content: space-around;
+  padding: 10% 0 0 0;
+  margin: 0; 
+}
+#day, #date{
+  text-align: center; 
+  box-sizing: border-box;
+  height: 250px;
+  width: 230px;
+  border-radius: 10%;
+  border: 10px solid $border;
+  box-shadow: 
+   2px 2px 2px $font,
+   -2px 2px 2px $font,
+   -2px -2px 2px $font,
+   2px -2px 2px $font
+   ;
+   margin-top: 5%; 
+}
+#day{ 
+  background: $day;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 80px; 
+}
+#day span{
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+}
+#date{  
+  padding-top: 60px;
+  background: $date;
+  font-size: 30px;
+  font-weight: 900; 
+}
+#date span{  
+  display: block;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 45px;
+  padding-bottom: 15px;
+}
+/*end Calender sec */
+/*end Calender sec */

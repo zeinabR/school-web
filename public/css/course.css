@@ -1,0 +1,36 @@
+.p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/*start cources sec*/
+.row{
+  margin-bottom:25px;
+}
+.subheader{
+  color:#008B8B;   
+  background-color: #112D3B;
+  width: 200px;
+  height: 90px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border: 2px dotted #FF9900;
+  border-radius: 20px;
+}
+/*.title_background{
+  background-color: #112D3B;
+  width: 500px;
+  height: 70px;
+  margin: auto;
+}*/
+
+.parentC{
+  margin:10%; 
+  padding: 25px;
+  border: 3px solid #112D3B;
+  border-radius: 10px;
+}
+
+li{
+  margin-bottom: 20px;
+}

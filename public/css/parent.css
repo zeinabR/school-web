@@ -1,0 +1,46 @@
+.main{
+    padding-top:120px;
+    padding-left: 50px;
+}
+h3{
+    color:#0cdfe2;
+}
+.btn-default{
+    color: #0cdfe2;
+    background-color: white;
+    border-style: outset;
+    border-color: #0cdfe2;
+}
+.cardTeacher{
+    height:200px;
+    width: 450px;
+    background-image: url("../images/ca0f74cc27bd4b25c9d6f094a0823586.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    color:white;
+    font-weight: bolder;
+    font-size: 50px;
+    vertical-align: middle;
+}
+.cardTeacher:hover{
+    color: #0cdfe2;
+}
+.cardExpenses{
+    height:200px;
+    width: 450px;
+    background-image: url("../images/surprising-back-to-school-expenses-to-plan-for.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    color:white;
+    font-weight: bolder;
+    font-size: 50px;
+   vertical-align: middle;
+}
+.cardExpenses:hover{
+    color: #0cdfe2;
+}
+.Messages{
+    background-image: url('../images/thin-0306_chat_message_discussion_bubble_conversation-256.png');
+}

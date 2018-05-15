@@ -1,0 +1,107 @@
+.form-control
+{
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: orangered;
+    box-shadow: 6px 6px 0px rgb(240, 92, 38);
+    height: 50%;
+    margin: 20px;
+}
+
+/*body{
+
+
+}*/
+
+#cover{
+        background: url('../images/board.jpg');
+        background-repeat: no-repeat;
+/*        background-attachment: fixed;
+*/        background-size: cover;
+    padding-top:150px;
+    background-position: center;
+
+}
+h2{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+/*    margin-left: auto;
+*/    margin-right: auto;
+   /* border-style: solid;
+    border-width: 5px;*/
+}
+
+
+label{
+    margin-top: 30px;
+    color: #279d60;
+}
+#SchoolInfo
+{
+    
+    /*background-image: url("../images/board.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: white;
+   /* padding-top: 70px;
+    padding-bottom:  30px;
+    padding-right:  30px ;*/
+/*    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+*/    
+}
+
+
+
+
+/*.container
+{
+    
+}*/
+
+input[type=text]:hover
+{
+    box-shadow: none;
+
+}
+
+h2
+{
+    color: orangered;
+    margin-left: 230px;
+    font-size: 108px;
+    font-style: italic;
+    font-weight: bold;    
+}
+
+button[type=submit]:hover
+{
+    background-color: rgba(248, 102, 48, 0.808);
+    border-color: rgba(248, 102, 48, 0.808);
+    
+}
+
+
+.btn-primary
+{
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    margin-left: 50%;
+    
+}
+
+
+textarea:hover{
+    box-shadow: none;
+}
+
+@media screen and (max-width:575px)
+{
+    
+
+    h2{
+    margin-left: 0px;
+    }
+
+}

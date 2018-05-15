@@ -1,0 +1,102 @@
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        padding-left: 40px;
+        background:none;
+}
+.col{
+    float:left;
+    width:50%;
+}
+.ssettings{
+   
+    width:auto;
+    background:url(../images/amigos.png);
+    background-color: white;
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+.staffsettings{
+   
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/12652426.jpg);
+    background-position: right;
+    background-color: #5DB6E2;
+    background-repeat: no-repeat;
+}
+.parentsettings{
+   
+    
+    background: url(../images/family.png);
+    background-position: right;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+.teachersettings{
+   
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/104587644-Ben_Joh.1910x1000.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.schoolsettings{
+   
+    
+    background: url(../images/student/school.jpg);
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+.websettings{
+   
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/12652426.jpg);
+    background-position: right;
+    background-color: #5DB6E2;
+    background-repeat: no-repeat;
+}
+.settings {
+    /* Same as the width of the sidenav */
+   padding-top:120px;
+    width:auto;
+    height: 800px;
+   
+    /*background-color: rgb(247, 247, 188);*/
+}
+label{
+    color: #ff9900;
+}
+
+.groupbtns{
+display: block;
+float: left;
+}
+
+.form-control{
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.btn-default{
+    color:  #ff9900;
+    background-color:#212529;
+    border-style: outset;
+    border-color:  #ff9900;
+    margin-left: 10px;
+}
+    
+.form-control{
+    width:70%;
+}
+
+a{
+    color:#ff9900;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

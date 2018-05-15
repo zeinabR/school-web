@@ -1,0 +1,49 @@
+.form {
+    background: url(../images/School-backgrounds-7.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.overlay {
+    background-color: rgba(12, 12, 12, 0.6);
+    padding: 17%;
+    height: 100%;
+    
+}
+form {
+    padding-top: 10px;
+}
+.form-group {
+    color: white;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.form-group button {
+    /*margin-top: : 20px;*/
+    width: 100px;
+    /*text-align: center;*/
+
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid rgb(113, 226, 220);
+    color: #DDFFF7;
+}
+
+.forget a {
+    text-decoration: none;
+    color: rgb(113, 226, 220);
+}
+.forget a:hover {
+ /*text-decoration: none;*/
+    color: rgb(113, 226, 220);
+}
+
+.submit {
+    padding-right: 90px;
+    padding-left: 53px;
+    margin-left: 90px;
+}

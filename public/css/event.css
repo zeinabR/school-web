@@ -1,0 +1,36 @@
+.clear{
+  clear: both;
+}
+.p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.row{
+    margin-bottom:25px;
+}
+.title{
+    color :#008B8B ;
+    text-align: center;
+    margin-bottom:25px;
+}
+h5{/*subtitle*/
+    color :#008B8B ;
+    display: inline;
+}
+.event{
+   /* height: 400px;*/
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.event-photo{
+    border-radius: 50%;
+    border: 5px solid #112D3B; 
+    max-width: 100%;/*2hm wahda*/
+    height: auto;
+    display: block;
+}
+
+.event-text{
+    //background-color: antiquewhite;
+}
